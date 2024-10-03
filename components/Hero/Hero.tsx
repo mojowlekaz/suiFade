@@ -17,16 +17,14 @@ const socials = [
 
 export default function Hero() {
   return (
-    <div className="h-screen">
+    <div className="h-full lg:min-h-screen">
       <div
         style={{
           backgroundImage: `url('/bg1.svg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "100%",
-          width: "100%",
         }}
-        className="pt-60 md:pt-40"
+        className="pt-60 md:pt-40 min-h-screen w-full"
       >
         <div className="md:space-y-10 gap-y-14 md:gap-y-0 flex flex-col items-center justify-center h-full text-center ">
           <div className="flex flex-row md:space-x-40 space-x-10">

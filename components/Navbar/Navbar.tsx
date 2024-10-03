@@ -30,12 +30,12 @@ export default function Navbar() {
     {
       img: "/x.svg",
       alt: "x",
-      href: "x.com/fadeonsui",
+      href: "https://x.com/fadeonsui?s=21",
     },
     {
       img: "/tg.svg",
       alt: "tg",
-      href: "discord.com",
+      href: "https://t.me/fadeonsui",
     },
   ];
 

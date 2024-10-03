@@ -101,7 +101,7 @@ export default function Page() {
   };
   return (
     <div
-      className="h-screen"
+      className="h-full lg:min-h-screen"
       // style={{
       //   background: "linear-gradient(to bottom, black 90%, #444343 10%)",
       // }}
@@ -111,10 +111,8 @@ export default function Page() {
           backgroundImage: `url('/bg1.svg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "100%",
-          width: "100%",
         }}
-        className=" justify-center items-center flex "
+        className=" justify-center items-center flex  min-h-screen w-full"
       >
         <div className=" flex  flex-row items-center justify-between">
           <button

@@ -5,13 +5,13 @@ import Link from "next/link";
 const socials = [
   {
     img: "/x.svg",
-    alt: "X",
-    href: "https://x.com/fadeonsui",
+    alt: "x",
+    href: "https://x.com/fadeonsui?s=21",
   },
   {
     img: "/tg.svg",
-    alt: "Telegram",
-    href: "https://discord.com", // Updated to a valid Discord link (you may want to specify a channel)
+    alt: "tg",
+    href: "https://t.me/fadeonsui",
   },
 ];
 
